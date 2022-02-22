@@ -69,25 +69,25 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
-  ["auto-pairs"] = {
+  ["ayu-nvim"] = {
     loaded = true,
-    path = "/home/me/.local/share/nvim/site/pack/packer/start/auto-pairs",
-    url = "https://github.com/jiangmiao/auto-pairs"
+    path = "/home/me/.local/share/nvim/site/pack/packer/start/ayu-nvim",
+    url = "https://github.com/CantoroMC/ayu-nvim"
   },
-  ["ayu-vim"] = {
+  ["indent-blankline.nvim"] = {
     loaded = true,
-    path = "/home/me/.local/share/nvim/site/pack/packer/start/ayu-vim",
-    url = "https://github.com/ayu-theme/ayu-vim"
+    path = "/home/me/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
+    url = "https://github.com/lukas-reineke/indent-blankline.nvim"
   },
-  indentLine = {
+  ["nvim-autopairs"] = {
     loaded = true,
-    path = "/home/me/.local/share/nvim/site/pack/packer/start/indentLine",
-    url = "https://github.com/Yggdroot/indentLine"
+    path = "/home/me/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
+    url = "https://github.com/windwp/nvim-autopairs"
   },
   ["nvim-web-devicons"] = {
     loaded = true,
     path = "/home/me/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
-    url = "https://github.com/nvim-web-devicons"
+    url = "https://github.com/kyazdani42/nvim-web-devicons"
   },
   ["packer.nvim"] = {
     loaded = true,
@@ -104,20 +104,20 @@ _G.packer_plugins = {
     path = "/home/me/.local/share/nvim/site/pack/packer/start/popup.nvim",
     url = "https://github.com/nvim-lua/popup.nvim"
   },
-  ["vim-airline"] = {
-    loaded = true,
-    path = "/home/me/.local/share/nvim/site/pack/packer/start/vim-airline",
-    url = "https://github.com/bling/vim-airline"
-  },
   vimwiki = {
     loaded = true,
     path = "/home/me/.local/share/nvim/site/pack/packer/start/vimwiki",
     url = "https://github.com/vimwiki/vimwiki"
   },
-  ["zen-mode"] = {
+  ["windline.nvim"] = {
     loaded = true,
-    path = "/home/me/.local/share/nvim/site/pack/packer/start/zen-mode",
-    url = "https://github.com/folke/zen-mode"
+    path = "/home/me/.local/share/nvim/site/pack/packer/start/windline.nvim",
+    url = "https://github.com/windwp/windline.nvim"
+  },
+  ["zen-mode.nvim"] = {
+    loaded = true,
+    path = "/home/me/.local/share/nvim/site/pack/packer/start/zen-mode.nvim",
+    url = "https://github.com/folke/zen-mode.nvim"
   }
 }
 
