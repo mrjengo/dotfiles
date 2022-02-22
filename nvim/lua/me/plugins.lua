@@ -51,6 +51,14 @@ return packer.startup(function(use)
   use "vimwiki/vimwiki" -- Vimwiki
   use "kyazdani42/nvim-web-devicons" -- Icons
   use "windwp/nvim-autopairs" -- Auto pairs
+  use "lewis6991/gitsigns.nvim" -- git icons
+  use "hrsh7th/nvim-cmp" -- auto complete
+  use "hrsh7th/cmp-buffer" -- buffer completion 
+  use "hrsh7th/cmp-path" -- path completion
+  use "hrsh7th/cmp-cmdline" -- cmdline completion
+  use "saadparwaiz1/cmp_luasnip" -- snippet completions
+  use "L3MON4D3/LuaSnip" -- snippet engine
+  use "rafamadriz/friendly-snippets" -- a bunch of snippets to use
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
