@@ -74,11 +74,6 @@ _G.packer_plugins = {
     path = "/home/me/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
-  ["ayu-nvim"] = {
-    loaded = true,
-    path = "/home/me/.local/share/nvim/site/pack/packer/start/ayu-nvim",
-    url = "https://github.com/CantoroMC/ayu-nvim"
-  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/home/me/.local/share/nvim/site/pack/packer/start/cmp-buffer",
@@ -124,6 +119,16 @@ _G.packer_plugins = {
     path = "/home/me/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
     url = "https://github.com/lukas-reineke/indent-blankline.nvim"
   },
+  ["lualine.nvim"] = {
+    loaded = true,
+    path = "/home/me/.local/share/nvim/site/pack/packer/start/lualine.nvim",
+    url = "https://github.com/nvim-lualine/lualine.nvim"
+  },
+  ["material.nvim"] = {
+    loaded = true,
+    path = "/home/me/.local/share/nvim/site/pack/packer/start/material.nvim",
+    url = "https://github.com/marko-cerovac/material.nvim"
+  },
   ["nvim-autopairs"] = {
     loaded = true,
     path = "/home/me/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
@@ -168,11 +173,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/me/.local/share/nvim/site/pack/packer/start/vimwiki",
     url = "https://github.com/vimwiki/vimwiki"
-  },
-  ["windline.nvim"] = {
-    loaded = true,
-    path = "/home/me/.local/share/nvim/site/pack/packer/start/windline.nvim",
-    url = "https://github.com/windwp/windline.nvim"
   },
   ["zen-mode.nvim"] = {
     loaded = true,

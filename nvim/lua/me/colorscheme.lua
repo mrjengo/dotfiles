@@ -1,5 +1,5 @@
-local colorscheme = "ayu"
-vim.g.ayu_mirage = true
+local colorscheme = "material"
+vim.g.material_style = "palenight"
 
 local status_ok, _ = pcall(vim.cmd, "colorscheme " .. colorscheme)
 if not status_ok then

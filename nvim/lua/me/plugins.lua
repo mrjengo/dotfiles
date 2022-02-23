@@ -41,11 +41,11 @@ packer.init {
 -- Install your plugins here
 return packer.startup(function(use)
   -- My plugins here
-  use "CantoroMC/ayu-nvim" -- Ayu Colorscheme 
+  use "marko-cerovac/material.nvim" -- Material Colorscheme 
   use "wbthomason/packer.nvim" -- Have packer manage itself
   use "nvim-lua/popup.nvim" -- An implementation of the Popup API from vim in Neovim
   use "nvim-lua/plenary.nvim" -- Useful lua functions used ny lots of plugins
-  use "windwp/windline.nvim" -- Bottom status bar
+  use "nvim-lualine/lualine.nvim" -- Bottom status bar
   use "https://github.com/lukas-reineke/indent-blankline.nvim" -- Line indentation visualization
   use "folke/zen-mode.nvim" -- Zen mode
   use "vimwiki/vimwiki" -- Vimwiki

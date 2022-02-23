@@ -4,12 +4,12 @@
   [[default]]
     cursor_color = "#aaaaaa"
   [[me]]
-    background_color = "#1f2430"
-    background_darkness = 0.9
+    background_color = "#292d3e"
+    background_darkness = 0.95
     background_type = transparent
     cursor_color = "#aaaaaa"
-    foreground_color = "#c7c7c7"
-    palette = "#191e2a:#ed8274:#a6cc70:#fad07b:#6dcbfa:#cfbafa:#90e1c6:#c7c7c7:#686868:#f28779:#bae67e:#ffd580:#73d0ff:#d4bfff:#95e6cb:#ffffff"
+    foreground_color = "#a6accd"
+    palette = "#292d3e:#f07178:#c3e88d:#ffcb6b:#82aaff:#c792ea:#89ddff:#d0d0d0:#434758:#ff8b92:#ddffa7:#ffe585:#9cc4ff:#e1acff:#a3f7ff:#ffffff"
 [layouts]
   [[default]]
     [[[window0]]]
