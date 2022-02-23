@@ -56,9 +56,13 @@ return packer.startup(function(use)
   use "hrsh7th/cmp-buffer" -- buffer completion 
   use "hrsh7th/cmp-path" -- path completion
   use "hrsh7th/cmp-cmdline" -- cmdline completion
+  use "hrsh7th/cmp-nvim-lsp" --  autocompletion for lsp
+  use "hrsh7th/cmp-nvim-lua" -- autocompletio for lua
   use "saadparwaiz1/cmp_luasnip" -- snippet completions
   use "L3MON4D3/LuaSnip" -- snippet engine
   use "rafamadriz/friendly-snippets" -- a bunch of snippets to use
+  use "neovim/nvim-lspconfig" -- enable nvim-lspconfig
+  use "williamboman/nvim-lsp-installer" -- simple to use server installer
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
