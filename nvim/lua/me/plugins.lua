@@ -41,7 +41,7 @@ packer.init {
 -- Install your plugins here
 return packer.startup(function(use)
   -- My plugins here
-  use "marko-cerovac/material.nvim" -- Material Colorscheme 
+  use "marko-cerovac/material.nvim" -- Material Colorscheme
   use "wbthomason/packer.nvim" -- Have packer manage itself
   use "nvim-lua/popup.nvim" -- An implementation of the Popup API from vim in Neovim
   use "nvim-lua/plenary.nvim" -- Useful lua functions used ny lots of plugins
@@ -53,7 +53,7 @@ return packer.startup(function(use)
   use "windwp/nvim-autopairs" -- Auto pairs
   use "lewis6991/gitsigns.nvim" -- git icons
   use "hrsh7th/nvim-cmp" -- auto complete
-  use "hrsh7th/cmp-buffer" -- buffer completion 
+  use "hrsh7th/cmp-buffer" -- buffer completion
   use "hrsh7th/cmp-path" -- path completion
   use "hrsh7th/cmp-cmdline" -- cmdline completion
   use "hrsh7th/cmp-nvim-lsp" --  autocompletion for lsp
@@ -63,6 +63,13 @@ return packer.startup(function(use)
   use "rafamadriz/friendly-snippets" -- a bunch of snippets to use
   use "neovim/nvim-lspconfig" -- enable nvim-lspconfig
   use "williamboman/nvim-lsp-installer" -- simple to use server installer
+  use "nvim-telescope/telescope.nvim" -- Telescope, file finder" -- Telescope, file finder
+  use {
+    "nvim-treesitter/nvim-treesitter", -- syntax highlighting
+    run = ":TSUpdate",
+  }
+  use "p00f/nvim-ts-rainbow" -- rainbow ()
+
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
