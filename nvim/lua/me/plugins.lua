@@ -69,7 +69,8 @@ return packer.startup(function(use)
     run = ":TSUpdate",
   }
   use "p00f/nvim-ts-rainbow" -- rainbow ()
-
+  use "JoosepAlviste/nvim-ts-context-commentstring" -- comments on context
+  use "numToStr/Comment.nvim" -- auto comment
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
