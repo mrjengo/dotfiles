@@ -71,6 +71,9 @@ return packer.startup(function(use)
   use "p00f/nvim-ts-rainbow" -- rainbow ()
   use "JoosepAlviste/nvim-ts-context-commentstring" -- comments on context
   use "numToStr/Comment.nvim" -- auto comment
+  use "kyazdani42/nvim-tree.lua" -- files explorer
+  use "akinsho/bufferline.nvim" -- buffers and tabs
+  use "jose-elias-alvarez/null-ls.nvim" -- linter for syntax
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins

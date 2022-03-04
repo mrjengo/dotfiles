@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/home/me/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["bufferline.nvim"] = {
+    loaded = true,
+    path = "/home/me/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
+    url = "https://github.com/akinsho/bufferline.nvim"
+  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/home/me/.local/share/nvim/site/pack/packer/start/cmp-buffer",
@@ -134,6 +139,11 @@ _G.packer_plugins = {
     path = "/home/me/.local/share/nvim/site/pack/packer/start/material.nvim",
     url = "https://github.com/marko-cerovac/material.nvim"
   },
+  ["null-ls.nvim"] = {
+    loaded = true,
+    path = "/home/me/.local/share/nvim/site/pack/packer/start/null-ls.nvim",
+    url = "https://github.com/jose-elias-alvarez/null-ls.nvim"
+  },
   ["nvim-autopairs"] = {
     loaded = true,
     path = "/home/me/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
@@ -153,6 +163,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/me/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
+  },
+  ["nvim-tree.lua"] = {
+    loaded = true,
+    path = "/home/me/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
+    url = "https://github.com/kyazdani42/nvim-tree.lua"
   },
   ["nvim-treesitter"] = {
     loaded = true,
