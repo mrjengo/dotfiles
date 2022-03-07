@@ -74,6 +74,7 @@ return packer.startup(function(use)
   use "kyazdani42/nvim-tree.lua" -- files explorer
   use "akinsho/bufferline.nvim" -- buffers and tabs
   use "jose-elias-alvarez/null-ls.nvim" -- linter for syntax
+  use "akinsho/toggleterm.nvim" -- terminal inside vim
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
