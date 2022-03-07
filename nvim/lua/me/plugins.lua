@@ -46,7 +46,7 @@ return packer.startup(function(use)
   use "nvim-lua/popup.nvim" -- An implementation of the Popup API from vim in Neovim
   use "nvim-lua/plenary.nvim" -- Useful lua functions used ny lots of plugins
   use "nvim-lualine/lualine.nvim" -- Bottom status bar
-  use "https://github.com/lukas-reineke/indent-blankline.nvim" -- Line indentation visualization
+  use "lukas-reineke/indent-blankline.nvim" -- Line indentation visualization
   use "folke/zen-mode.nvim" -- Zen mode
   use "vimwiki/vimwiki" -- Vimwiki
   use "kyazdani42/nvim-web-devicons" -- Icons
@@ -75,6 +75,12 @@ return packer.startup(function(use)
   use "akinsho/bufferline.nvim" -- buffers and tabs
   use "jose-elias-alvarez/null-ls.nvim" -- linter for syntax
   use "akinsho/toggleterm.nvim" -- terminal inside vim
+  use "ahmedkhalf/project.nvim" -- project management
+  use "lewis6991/impatient.nvim" -- nvim optimization
+  use "goolord/alpha-nvim" -- vim starting theme
+  use "antoinemadec/FixCursorHold.nvim" -- This is needed to fix lsp doc highlight
+  use "folke/which-key.nvim" -- which key like emacs
+
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
