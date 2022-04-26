@@ -46,39 +46,19 @@ return packer.startup(function(use)
   use "nvim-lua/popup.nvim" -- An implementation of the Popup API from vim in Neovim
   use "nvim-lua/plenary.nvim" -- Useful lua functions used ny lots of plugins
   use "nvim-lualine/lualine.nvim" -- Bottom status bar
-  use "lukas-reineke/indent-blankline.nvim" -- Line indentation visualization
   use "folke/zen-mode.nvim" -- Zen mode
   use "vimwiki/vimwiki" -- Vimwiki
   use "kyazdani42/nvim-web-devicons" -- Icons
   use "windwp/nvim-autopairs" -- Auto pairs
   use "lewis6991/gitsigns.nvim" -- git icons
-  use "hrsh7th/nvim-cmp" -- auto complete
-  use "hrsh7th/cmp-buffer" -- buffer completion
-  use "hrsh7th/cmp-path" -- path completion
-  use "hrsh7th/cmp-cmdline" -- cmdline completion
-  use "hrsh7th/cmp-nvim-lsp" --  autocompletion for lsp
-  use "hrsh7th/cmp-nvim-lua" -- autocompletio for lua
-  use "saadparwaiz1/cmp_luasnip" -- snippet completions
-  use "L3MON4D3/LuaSnip" -- snippet engine
-  use "rafamadriz/friendly-snippets" -- a bunch of snippets to use
   use "neovim/nvim-lspconfig" -- enable nvim-lspconfig
-  use "williamboman/nvim-lsp-installer" -- simple to use server installer
-  use "nvim-telescope/telescope.nvim" -- Telescope, file finder" -- Telescope, file finder
   use {
     "nvim-treesitter/nvim-treesitter", -- syntax highlighting
     run = ":TSUpdate",
   }
   use "p00f/nvim-ts-rainbow" -- rainbow ()
-  use "JoosepAlviste/nvim-ts-context-commentstring" -- comments on context
-  use "numToStr/Comment.nvim" -- auto comment
   use "kyazdani42/nvim-tree.lua" -- files explorer
   use "akinsho/bufferline.nvim" -- buffers and tabs
-  use "jose-elias-alvarez/null-ls.nvim" -- linter for syntax
-  use "akinsho/toggleterm.nvim" -- terminal inside vim
-  use "ahmedkhalf/project.nvim" -- project management
-  use "lewis6991/impatient.nvim" -- nvim optimization
-  use "goolord/alpha-nvim" -- vim starting theme
-  use "antoinemadec/FixCursorHold.nvim" -- This is needed to fix lsp doc highlight
   use "folke/which-key.nvim" -- which key like emacs
 
 
